@@ -82,7 +82,7 @@ class AuthController extends Controller
                 $tokenCache = new TokenCache();
                 $tokenCache->storeTokens($accessToken, $user);
 
-                return redirect('/');
+                return redirect('/welcome');
             }
             catch (League\OAuth2\Client\Provider\Exception\IdentityProviderException $e) {
                 return redirect('/')
@@ -91,7 +91,7 @@ class AuthController extends Controller
             }
         }
 
-        return redirect('/')
+        return redirect('/guest')
             ->with('error', $request->query('error'))
             ->with('errorDetail', $request->query('error_description'));
     }
@@ -100,6 +100,6 @@ class AuthController extends Controller
     {
         $tokenCache = new TokenCache();
         $tokenCache->clearTokens();
-        return redirect('/');
+        return redirect(route('welcome'));
     }
 }

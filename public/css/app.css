@@ -1,9 +1,99 @@
+:root {
+    --primary-base: #123361;
+    --primary-light: #8B99AF;
+    --primary-dark: #081C39;
+    --secondary-base: #E7A51F;
+    --secondary-light: #F3D291;
+    --secondary-dark: #242424;
+    --white: rgb(255, 255, 255);
+
+    font-family: "Verdana",Geneva,sans-serif;
+}
+
 body {
     padding-top: 4.5rem;
 }
 
+footer {
+    font-size: small;
+}
+
+h1.title {
+    text-align: center;
+    font-weight: 400;
+    color: var(--primary-base);
+}
+
+img {
+    object-fit: cover;
+}
+
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*nav styling*/
+
+nav#bootstrap-overrides {
+    background-color: var(--primary-base);
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.nav-item a {
+    color: var(--white);
+}
+
+.nav-item a:hover {
+    color: var(--primary-light);
+}
+
+
+a.dropdown-item {
+    color: var(--primary-dark);
+}
+/*Alert notifications*/
 .alert-pre {
     word-wrap: break-word;
     word-break: break-all;
     white-space: pre-wrap;
 }
+
+
+/*Card styling*/
+.card-title {
+    color: var(--primary-base);
+}
+
+.card {
+    margin: 1em;
+}
+
+.card-img-top {
+    height: 180px;
+}
+
+
+/*Button styles*/
+.button {
+    padding: 0.5em;
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+.button-gold {
+    background-color: var(--secondary-base);
+    color: var(--primary-dark);
+}
+
+.button-gold:hover {
+    color: var(--primary-dark);
+}
+
+
+
+
