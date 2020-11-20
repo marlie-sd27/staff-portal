@@ -53,12 +53,12 @@
 
             <div class="col-md col-sm-12 d-flex align-items-stretch">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{ asset('img/finance.jpg') }}" alt="Card image cap">
+                    <img class="card-img-top" src="{{ asset('img/demo1.jpg') }}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Demo Duplicate Department</h5>
                         <p class="card-text">Find travel expense resources and tax forms along with department
                             contacts.</p>
-                        <a target="_blank" href="https://sd27o365.sharepoint.com/sites/FinanceandPayrollDepartment"
+                        <a target="_blank" href="#"
                            class="button button-gold">Visit Page</a>
                     </div>
                 </div>
@@ -66,12 +66,12 @@
 
             <div class="col-md col-sm-12 d-flex align-items-stretch">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{ asset('img/transportation.jpg') }}" alt="Card image cap">
+                    <img class="card-img-top" src="{{ asset('img/demo2.jpg') }}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Demo Duplicate Department</h5>
                         <p class="card-text">Find travel expense resources and tax forms along with department
                             contacts.</p>
-                        <a target="_blank" href="https://sd27o365.sharepoint.com/sites/FinanceandPayrollDepartment"
+                        <a target="_blank" href="#"
                            class="button button-gold">Visit Page</a>
                     </div>
                 </div>
@@ -79,12 +79,12 @@
 
             <div class="col-md col-sm-12 d-flex align-items-stretch">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{ asset('img/hr.jpg') }}" alt="Card image cap">
+                    <img class="card-img-top" src="{{ asset('img/demo3.jpg') }}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Demo Duplicate Department</h5>
                         <p class="card-text">Find travel expense resources and tax forms along with department
                             contacts.</p>
-                        <a target="_blank" href="https://sd27o365.sharepoint.com/sites/FinanceandPayrollDepartment"
+                        <a target="_blank" href="#"
                            class="button button-gold">Visit Page</a>
                     </div>
                 </div>
