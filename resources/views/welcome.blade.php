@@ -50,7 +50,7 @@
         <div class="row">
             <div class="col-md col-sm-12 d-flex align-items-stretch">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{ asset('img/hr.jpg') }}" alt="Card image cap" height="190px">
+                    <img class="card-img-top" src="{{ asset('img/hr.jpg') }}" alt="people" height="190px">
                     <div class="card-body">
                         <h5 class="card-title">Human Resources Department</h5>
                         <p class="card-text">Find resources on WorkSafeBC, IUOE, CCTA, BCTF, benefits, leave forms and
@@ -65,7 +65,7 @@
             <div class="col-md col-sm-12 d-flex align-items-stretch">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="{{ asset('img/transportation.jpg') }}"
-                         alt="Card image cap">
+                         alt="School Bus">
                     <div class="card-body">
                         <h5 class="card-title">Transportation Department</h5>
                         <p class="card-text">Access the Bus Drivers' Guide Book and department contacts.</p>
@@ -77,7 +77,7 @@
 
             <div class="col-md col-sm-12 d-flex align-items-stretch">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{ asset('img/finance.jpg') }}" alt="Card image cap">
+                    <img class="card-img-top" src="{{ asset('img/finance.jpg') }}" alt="Finance and Payroll">
                     <div class="card-body">
                         <h5 class="card-title">Finance and Payroll Department</h5>
                         <p class="card-text">Find travel expense resources and tax forms along with department
@@ -90,12 +90,12 @@
 
             <div class="col-md col-sm-12 d-flex align-items-stretch">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{ asset('img/demo1.jpg') }}" alt="Card image cap">
+                    <img class="card-img-top" src="{{ asset('img/health-and-safety.jpg') }}" alt="Health and safety">
                     <div class="card-body">
                         <h5 class="card-title">Health and Safety</h5>
-                        <p class="card-text">Find travel expense resources and tax forms along with department
+                        <p class="card-text">Find health and safety resources.
                             contacts.</p>
-                        <a target="_blank" href="#"
+                        <a target="_blank" href="https://sd27o365.sharepoint.com/sites/HealthandSafetyDepartment"
                            class="button button-gold">Visit Page</a>
                     </div>
                 </div>
