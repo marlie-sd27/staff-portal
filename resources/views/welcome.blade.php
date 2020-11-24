@@ -3,10 +3,47 @@
 @section('content')
     <div class="container align-content-center">
         <h1 class="title">Staff Portal</h1>
-        <p class="text-center">Here you'll find links to Department sites and resources. If your department has a site
-            you'd like to link to from the staff portal, please contact the IT Department. Link back to the main website
-            by clicking the logo in the top left corner.
-        </p>
+    </div>
+
+    <div class="container">
+        <div class="row quick-links">
+            <div class="quick-link col-md col-sm-12 d-flex align-items-stretch">
+                <a target="_blank" href="https://www.office.com/?auth=2">
+                    <p class="icon"><i class="fab fa-windows"></i></p>
+                    <p>Office 365 Login</p>
+                </a>
+            </div>
+            <div class="quick-link col-md col-sm-12 d-flex align-items-stretch">
+                <a target="_blank" href="https://bc08.atrieveerp.com/cariboo/login.aspx?ReturnUrl=%2fcariboo%2fservlet%2fBroker">
+                    <p class="icon"><i class="fas fa-user "></i></p>
+                    <p>Human resource Access</p>
+                </a>
+            </div>
+            <div class="quick-link col-md col-sm-12 d-flex align-items-stretch">
+                <a target="_blank" href="https://sd27o365.sharepoint.com/departments/it/Lists/Workorders/active.aspx">
+                    <p class="icon"><i class="fas fa-laptop"></i></p>
+                    <p>IT Work Orders</p>
+                </a>
+            </div>
+            <div class="quick-link col-md col-sm-12 d-flex align-items-stretch">
+                <a target="_blank" href="https://dlweb.megamation.com/sd27/DLWEB.php/O4W_LOGIN_DLWEB">
+                    <p class="icon"><i class="fas fa-tools"></i></p>
+                    <p>Maintenance Work Orders</p>
+                </a>
+            </div>
+            <div class="quick-link col-md col-sm-12 d-flex align-items-stretch">
+                <a target="_blank" href="https://www.myeducation.gov.bc.ca/aspen/logon.do">
+                    <p class="icon"><i class="fas fa-book-open"></i></p>
+                    <p>MyEducation BC</p>
+                </a>
+            </div>
+            <div class="quick-link col-md col-sm-12 d-flex align-items-stretch">
+                <a target="_blank" href="http://moodle.sd27.bc.ca/">
+                    <p class="icon"><i class="fas fa-graduation-cap"></i></p>
+                    <p>Moodle</p>
+                </a>
+            </div>
+        </div>
     </div>
 
     <div class="container">
@@ -55,7 +92,7 @@
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="{{ asset('img/demo1.jpg') }}" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Demo Duplicate Department</h5>
+                        <h5 class="card-title">Health and Safety</h5>
                         <p class="card-text">Find travel expense resources and tax forms along with department
                             contacts.</p>
                         <a target="_blank" href="#"
